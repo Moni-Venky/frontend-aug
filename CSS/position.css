@@ -1,0 +1,37 @@
+#Heading{
+    position: fixed;
+    background-color: aquamarine;
+    color: white;
+    width: 100%;
+    top: 0;
+}
+#Heading+p{
+    margin-top: 30px;
+}
+#sticky{
+    position: sticky;
+    top: 0;
+    background-color: aqua;
+    z-index: 999;
+}
+#chat{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 20px;
+}
+.chair{
+    position: relative;
+    width: 300px;
+}
+.chair img{
+    filter: drop-shadow(2px 4px 6px black);
+    width:100%;
+}
+.chair button{
+    position: absolute;
+    top:0;
+    right: 0;
+}

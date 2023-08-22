@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+}.css {
+    width: 100%;
+    border: 2px solid #666565;
+    background-color: #666565;
+}
+.css0 {
+    border: 2px solid #666565;
+    background-color: #666565;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 47% 40% 10%;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    padding: 15px;
+    line-height: 1.2;
+}
+.css1 i {
+    color: #FEA116;
+    font-size: 2.5rem;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+.css1 a {
+    color: #FEA116;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-family:"Nunito",sans-serif;
+    font-weight: 700;
+}
+.css2 a {
+    color: #f1f8ff;
+    text-transform: uppercase;
+    padding: 10px;
+    font-family: "Heebo",sans-serif;
+    font-size: 15px;
+}
+.css3 button {
+    background-color: #FEA116;
+    font-family: "Nunito",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+    padding-right: 17px ;
+    padding-left: 17px;
+}
+a{
+    text-decoration: none;
+}
+.css4 {
+    display: grid;
+    grid-template-columns: 50% 30%;
+    padding-top: 200px;
+}
+.css5 {
+    padding-left: 120px;
+    text-align: left;
+}
+.css5 h1 {
+     color: #fff;
+     font-size: 4rem;
+     font-family: "Nunito",sans-serif;
+     font-weight: 700;
+     text-align: left;
+     margin-bottom: 0;
+}
+.css5 p {
+    color: #fff;
+    font-size: 1rem;
+    font-family: "Heebo",sans-serif; 
+    font-weight: 400;
+}
+.css5 button{
+    background-color: #FEA116;
+    font-family: "Nunito",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 15px ;
+    padding-right: 40px ;
+    padding-left: 40px;
+}
+.css6 {
+    padding-left: 60px;
+}
+.css8 {
+    background-color: #f2f4f7;
+    border: 2px solid #bbc0c5 ;
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    justify-content: center;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+}
+.css9 i{
+    color: #FEA116 ;
+    font-size: 2.5rem;
+}
+.css9 i:hover{
+    color: #f1f8ff;
+}
+.css9:hover {
+    background-color: #FEA116;
+    color: #f1f8ff;
+}
+.css9 {
+    height: 213px;
+    width: 192px;
+    font-family: "Heebo",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color:#fff ;
+}
+.css11 {
+    display: grid;
+    grid-template-columns: 15% 20%;
+    justify-content: space-around;
+}
+.css12 {
+    display: grid;
+    grid-template-columns: 15% 25%;
+    justify-content: space-around;
+}
+.css10 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+#sam1 {
+    padding-left:20px;
+    padding-bottom: 20px;
+    border-radius: 2px;
+}
+#sam2 {
+    padding-right: 35px;
+    padding-bottom:0px;
+    margin-top: 45%;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+#sam3 {
+    padding-left:95px;
+    border-radius: 2px;
+}
+#sam4 {
+    padding-right: 30px;
+    border-radius: 2px;
+}
+.css13 h1{
+    margin-bottom: 1.5rem; 
+    font-size: 2.5rem;
+    font-family:  "Nunito",sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    padding-left: 20px;
+}
+.css13 p{
+    font-family: "Heebo",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666565;
+    padding: 20px;
+}
+.css13 i{
+    color: #FEA116;
+    font-size: 2.5rem;
+}
+.css132 {
+    color: #FEA116;
+    font-size: 2.5rem;
+    padding-left: 25px;
+}
+.css131 button{
+    background-color: #FEA116;
+    font-family: "Nunito",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-left: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px ;
+    padding-right: 40px ;
+    padding-left: 40px;
+}
+.css14 h5,h1{
+    width: 100%;
+}  
+.css14 h5{
+    font-family: Pacifico,cursive;
+    color: #FEA116;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-top: 100px;
+    margin-bottom: 0.5rem;
+}
+.css14 h5::before {
+    content: ------;
+}
+.css14 h5::after{
+    content: ------;
+}
+.css14 h1{
+    font-family: "Heebo",sans-serif;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin: 0;
+}
+.css15 {
+    display: grid;
+    grid-template-columns: repeat(6,10%);
+    padding-left: 450px;
+}
+.css16 i{
+    color: #FEA116;
+    font-size: 2.5rem;
+}
+.css16 small{
+    color: #666565;
+}
+.css16 {
+    font-size: 1em;
+    padding-top: 15px;
+    line-height: 1.5;
+}
+.css18 {
+    display: grid;
+    grid-template-columns:  50% 50%;
+}

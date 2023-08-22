@@ -1,0 +1,47 @@
+.parent p::first-letter{
+    color: rgb(241, 19, 19);
+}
+.parent p::after{
+    content:"**";
+}
+.parent button :active{
+    background-color: blueviolet;
+}
+.parent button{
+    background-color: blue;
+    border: none;
+    box-shadow: 0 0 5px grey;
+    border-radius: 5px;
+}
+.parent button:hover{
+    background-color: aqua;
+}
+table tr td{
+    border: 1px solid grey;
+}
+table tr:nth-child(odd){
+    background-color: blue;
+    color: white;
+}
+table tr:nth-child(even){
+    background-color:red;
+    color: white;
+}
+table tr:nth-child(1){
+    background-color:yellowgreen;
+    color: white;
+}
+p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-style: oblique;
+    text-align: center;
+    text-shadow: 1px 2px 2px #999;
+    text-transform: capitalize;
+    text-decoration: underline;
+    white-space: nowrap;
+    width: 400px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}

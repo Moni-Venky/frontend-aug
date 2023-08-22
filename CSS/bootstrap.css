@@ -1,0 +1,42 @@
+.bootstrap1{
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(84, 84, 238);
+}
+.parent1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.childbs1{
+    text-decoration: none;
+}
+.parent1 select{
+    border: 1px solid  rgb(84, 84, 238);
+    background-color:  rgb(84, 84, 238);
+    color: white;
+}
+.childbutton1{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color:  rgb(84, 84, 238);
+    padding: 0px;
+    margin: 0px;
+}
+.childbutton1 :hover{
+   background-color: white;
+}
+.childp2 button{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color:  rgb(84, 84, 238);
+    padding: 10px;
+    margin: 20px;
+}
+/*.parent2 .childp2 :hover{
+    background-color: white;
+}
+.parent2 .childp2 :hover{
+    color:rgb(84, 84, 238);
+}*/

@@ -1,0 +1,15 @@
+#para{
+    color:red
+}
+.br{
+    color:yellow
+}
+*{
+    color:pink
+}
+div>h1{
+     color:blueviolet
+}
+div h1{
+    color:blue
+}

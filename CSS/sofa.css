@@ -1,0 +1,138 @@
+.body{
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.para{
+    background-color: rgb(191, 228, 243);
+    height: 600px;
+}
+.parent1{
+    display: grid;
+    grid-template-columns: 25% 50% 20%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.child2{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.child3 select{
+    border: 1px solid white;
+    text-decoration-line: none;
+}
+.child4{
+    display: flex;
+    justify-content: space-around;
+}
+.row2{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+.parent2 .childh1{
+    font-size: 40px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.parent2 .childp{
+    color: rgb(56, 50, 50);
+}
+.parent2 .childbutton{
+    font-size: 50px;
+    height: 30px;
+    width: 250px;
+}
+.childbutton button{
+    border: 1px solid orangered;
+    border-radius:5px ;
+    padding: 20px;
+    width: 180px;
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+}
+.childbutton a{
+    text-decoration: none;
+    color: white;
+}
+.parent2 .childbutton :hover{
+    color: orange;
+}
+.parent3  {
+    margin-top: 60px;
+}
+.parent4 {
+    margin-top: 50px;
+    text-align: center;
+    padding-left: 1000px;
+}
+.parent4 a{
+    text-decoration: none;
+}
+.parent5 {
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.thirdrow{
+    display: flex;
+    justify-content: space-around;
+}
+.row3{
+    display: flex;
+    justify-content: space-around;
+}
+.row4{
+    display: flex;
+    justify-content: space-around;
+}
+.row3{
+    padding: 20px;
+    margin-left: 70px;
+    padding: 40px;
+    height: 350px;
+    border: 1px solid rgb(220, 240, 248);
+    background-color: rgb(205, 229, 241) ;
+}
+.row4{
+    padding: 20px;
+    margin-right: 5px;
+    padding: 40px;
+    height: 350px;
+    border: 1px solid rgb(220, 240, 248);
+    background-color: rgb(205, 229, 241) ;
+}
+.parent6{
+    padding-right: 20px;
+}
+.parent7 img{
+    height: 370px;
+}
+.parent9 img{
+    height: 370px;
+}
+.fourthrow{
+    display: flex;
+    justify-content: space-around;
+}
+.row5{
+    margin-top: 30px;
+    margin-left: 35px;
+    padding: 30px;
+    border: 1px solid rgb(220, 240, 248);
+    background-color: rgb(205, 229, 241) ;
+}
+.parent11 img{
+    padding-left: 40px;
+    margin-left: 20px;
+}
+.row6{
+    margin-top: 30px;
+    margin-right: 35px;
+    padding: 40px;
+    border: 1px solid rgb(220, 240, 248);
+    background-color: rgb(205, 229, 241) ;
+}

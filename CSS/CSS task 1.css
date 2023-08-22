@@ -1,0 +1,540 @@
+body{
+    margin: 0;
+}
+.html{
+    width: 100%;
+    height: 100%;
+    border: 1px solid grey;
+    background-color: gray;
+    padding-bottom: 100px;
+}
+.html0{
+    border: 2px solid #666565;
+    background-color: #666565;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 45% 38% 15%;
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    padding: 15px;
+    line-height: 1.2;
+    z-index:999;
+}
+.html1 i{
+    color: #FEA116 ;
+    font-size: 2.5rem;
+    padding-right: 20px;
+    padding-right: 20px;
+}
+.html1 a{
+    color: #FEA116;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-transform:capitalize;
+}
+.html2 a{
+    color: #f1f8ff;
+    text-transform: uppercase ;
+    padding: 10px;
+    font-family: "Heebo",sans-serif;
+    font-size: 15px;
+}
+.html2 a:hover{
+    color: #FEA116;
+}
+.html3 button{
+    color: white;
+    background-color: #FEA116;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: oblique;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+a{
+    text-decoration: none;
+}
+.html4 {
+    display: grid;
+    grid-template-columns: 50% 30%;
+    padding-top: 200px;
+}
+.html5 {
+    padding-left: 120px;
+    text-align: left;
+}
+.html5 h1 {
+    color: #fff;
+    font-size: 4rem;
+    font-family: "Nunito",sans-serif;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 0;
+}
+.html5 p {
+    color: #fff;
+    font-size: 1rem;
+    font-family: "Heebo",sans-serif; 
+    font-weight: 400;
+}
+.html5 button{
+    background-color: #FEA116;
+    font-family: "Nunito",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 15px ;
+    padding-right: 40px ;
+    padding-left: 40px;
+}
+.html6 {
+    padding-left: 60px;
+}
+.html8{
+    background-color:#fff;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    justify-content:center;
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+}
+.html9:hover i{
+    color:#f2f4f7;
+}
+.html9 i{
+    color: #FEA116;
+    font-size: 2.5rem;
+}
+.html9:hover{
+    background-color: #FEA116;
+     color:#f1f8ff;
+}
+.html9{
+    height: 220px;
+    width: 250px;
+    font-family: "Heebo",sans-serif;
+    box-shadow: 0 0 5px grey;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color:#f2f4f7;
+}
+.html11{
+    display: grid;
+    grid-template-columns: 15% 20%;
+    justify-content: space-around;
+}
+.html12{
+    display: grid;
+    grid-template-columns: 15% 25%;
+    justify-content: space-around;
+}
+.html10{
+    display: grid;
+    grid-template-columns:50% 50%;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#hd1 {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 2px;
+}
+#hd2 {
+    padding-right: 25px;
+    padding-bottom: 10px;
+    margin-top: 45%;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+#hd3 {
+    padding-left: 95px;
+    border-radius: 2px;
+}
+#hd4 {
+    padding-right: 30px;
+    border-radius: 2px;
+}
+.html13 p {
+    font-family: "Heebo", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666565;
+}
+.html13 h3 {
+    color: #FEA116;
+}
+.html13 i {
+    color: #FEA116;
+    font-size: 2.5rem;
+}
+.html132 {
+    color: #FEA116;
+    font-size: 2.5rem;
+    padding-left: 25px;
+}
+#gry{
+color: #666565;
+}
+.html131 button {
+    background-color: #FEA116;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-left: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.html14 h5,h1 {
+    width: 100%;
+}
+.html14 h5 {
+    font-family: Pacifico, cursive;
+    color: #FEA116;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-top: 100px;
+    margin-bottom: 1.5rem;
+}
+.html14 h5::before {
+    content: ------;
+}
+.html14 h5::after {
+    content: ------;
+}
+.html14 h1 {
+    font-family: "Heebo", sans-serif;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin: 0;
+}
+.html15 {
+    display: grid;
+    grid-template-columns: repeat(6, 10%);
+    padding-left: 450px;
+    padding-bottom: 20px;
+}
+.html16 i {
+    color: #FEA116;
+    font-size: 2.5rem;
+}
+.html16 p {
+    color: #666565;
+}
+.html16 {
+    font-size: 1em;
+    padding-top: 15px;
+    line-height: 0;
+}
+.html18 {
+    display: grid;
+    grid-template-columns: 10% 30% 10% 30%;
+    box-sizing: border-box;
+}
+.html17 {
+    margin-left: 130px;
+}
+.html19 {
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #0F172B;
+}
+.html19 p {
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1;
+    color: #666565;
+    text-decoration: overline;
+}
+.html20 {
+    margin-left: 140px;
+    color: #FEA116;
+}
+.html21 {
+    background-color: #0F172B;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    box-sizing: border-box;
+}
+.html22 button {
+    position: absolute;
+    top: 300px;
+    right: 250px;
+    background-color: #FEA116;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    margin-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 100px;
+}
+.html22 {
+    position: relative;
+}
+.html22 img {
+    width: 650px;
+    height: 550px;
+}
+.html23 {
+    width: 100%;
+    height: 500px;
+}
+.html24 h4 {
+    font-family: Pacifico, cursive;
+    color: #FEA116;
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding: 10px;
+}
+.html24 h1 {
+    color: #fff;
+    padding: 10px;
+    font-size: 2.5rem;
+}
+.html241 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+}
+.html242 input {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666565;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.orange1 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666565;
+    width: 85%;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    margin-left: 12px;
+    text-transform: capitalize;
+}
+.orange2 button{
+    width: 95%;
+    background-color: #FEA116;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 19px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 45px;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 13px;
+}
+.html28 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+.html31 {
+    text-align: center;
+    font-family: "Heebo", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #666565;
+}
+.html30 {
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #0F172B;
+}
+.html27 h4 {
+    font-family: Pacifico, cursive;
+    color: #FEA116;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-top: 100px;
+    margin-bottom: 0.5rem;
+}
+.html27 h1 {
+    font-family: "Heebo", sans-serif;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+.html32 {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: space-evenly;
+}
+.html33 {
+    border-radius: 2px;
+    border: 1px solid #dee2e6;
+    padding-left: 20px;
+}
+.html33 p {
+    font-family: "Heebo", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666565;
+}
+.html33 small {
+    font-size: 2em;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #FEA116;
+}
+.html34 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-right: 70px;
+}
+.html35 p {
+    font-family: "Heebo", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666565;
+    text-transform: capitalize;
+}
+.html35 h4 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #0F172B;
+    text-transform: capitalize;
+}
+.html36 {
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    justify-content: space-evenly;
+    background-color: #343a40;
+    color: #F1F8FF;
+    margin-top: 100px;
+    padding: 20px;
+}
+.html37 h3 {
+    font-family: pacifico, cursive;
+    color: #FEA116;
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.html37 p {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.html37 a {
+    color: #fff;
+}
+.html40 {
+    border: 1px solid #fff;
+    border-radius: 9px;
+    font-size: 2rem;
+}
+.html38 {
+    display: grid;
+    grid-template-columns: 10% 50%;
+}
+.html39 {
+    padding-top: 15px;
+}
+.html37 h3::after {
+    content: "__";
+}
+.html43 {
+    display: grid;
+    grid-template-columns: 60% 35%;
+    justify-content: space-evenly;
+    position: relative;
+}
+.html44 button {
+    position: absolute;
+    background-color: #FEA116;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+input[type=email] {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 50px;
+}
+.html42 {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    background-color: #343a40;
+    padding: 40px;
+    padding-right: 10px;
+    color: #fff;
+    width: 1289px;
+    border-top: 1px solid #fff;
+}
+.html45 p {
+    text-align: left;
+    padding-left: 20px;
+}
+.html47 {
+    text-transform: capitalize;
+    padding-left: 200px;
+    margin-top: 5px;
+}
+.html46 {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: #FEA116;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.label {
+    padding-right: 10px;
+}

@@ -1,0 +1,110 @@
+.parent{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.media1{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+.child-1{
+    border: 20px solid orange;
+    background-color: orange;
+    height: 30px;
+    margin: 5px;
+}
+.child-2{
+    border: 20px solid rgb(60, 255, 0);
+    background-color: rgb(60, 255, 0);
+    height: 200px;
+    margin: 5px;
+}
+.media2{
+    display: grid;
+    grid-template-columns: repeat(3,33.3%);
+}
+.child-3{
+    border: 20px solid blue;
+    background-color: blue;
+    height: 120px;
+    margin: 5px;
+}
+.media3{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+}
+.child-4{
+    border: 20px solid grey;
+    background-color: grey;
+    height: 60px;
+    margin: 5px;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .media1{
+        grid-template-columns:repeat(1,100%);
+    }
+    .child-1{
+        height: 3px;
+    }
+    .child-2{
+        height: 10px;
+    }
+    .media2{
+        grid-template-columns:repeat(1,100%);
+    }
+    .child-3{
+        height: 120px;
+    }
+    .media3{
+        grid-template-columns:repeat(1,100%);
+    }
+    .child-4{
+        height: 3px;
+    }
+}
+@media only screen and (min-width:480px) and (max-width:768px){
+    .media1{
+        grid-template-columns: repeat(1,100%);
+    }
+    .child-1{
+        height: 5px;
+    }
+    .child-2{
+        height: 70px;
+    }
+    .media2{
+        grid-template-columns:repeat(1,100%);
+    }
+    .child-3{
+        height: 10px;
+    }
+    .media3{
+        grid-template-columns:repeat(4,25%);
+    }
+    .child-4{
+        height: 20px;
+    }
+}
+@media only screen and (max-width:1024){
+    .media1{
+        grid-template-columns:repeat(2,50%);
+    }
+    .child-1{
+        height: 30px;
+    }
+    .child-2{
+        height: 200px;
+    }
+    .media2{
+        grid-template-columns:repeat(3,33.3%);
+    }
+    .child-3{
+        height: 120px;
+    }
+    .media3{
+        grid-template-columns:repeat(4,25%);
+    }
+    .child-4{
+        height: 60px;
+    }
+}
